@@ -1,0 +1,80 @@
+{
+  "summary": "Identified 5 action item(s), 3 decision(s), and 2 risk(s) from the meeting notes.",
+  "decisions": [
+    "Use the existing Jira project for workflow follow-up instead of creating a separate tracker.",
+    "Keep the first release focused on annotation upload, review assignment, and uncertainty escalation.",
+    "Pilot with 20 retrospective ultrasound studies before expanding to live cases."
+  ],
+  "risks": [
+    "If reviewer assignment is unclear, pilot feedback may be noisy.",
+    "If the clinician guide is late, onboarding will slip."
+  ],
+  "action_items": [
+    {
+      "title": "draft validation copy for incomplete scan uploads",
+      "description": "Action extracted from meeting notes.\n\nSource: Asha will draft validation copy for incomplete scan uploads by 2026-06-17.\n\nOwner: Asha\nDue date: 2026-06-17",
+      "owner": "Asha",
+      "due_date": "2026-06-17",
+      "priority": "Medium",
+      "labels": [
+        "meeting-action",
+        "asha"
+      ],
+      "source_quote": "Asha will draft validation copy for incomplete scan uploads by 2026-06-17.",
+      "confidence": 0.7
+    },
+    {
+      "title": "add reviewer rotation rules to the technical plan",
+      "description": "Action extracted from meeting notes.\n\nSource: Ravi will add reviewer rotation rules to the technical plan by 2026-06-18.\n\nOwner: Ravi\nDue date: 2026-06-18",
+      "owner": "Ravi",
+      "due_date": "2026-06-18",
+      "priority": "Medium",
+      "labels": [
+        "meeting-action",
+        "ravi"
+      ],
+      "source_quote": "Ravi will add reviewer rotation rules to the technical plan by 2026-06-18.",
+      "confidence": 0.7
+    },
+    {
+      "title": "create a one-page clinician pilot guide",
+      "description": "Action extracted from meeting notes.\n\nSource: Meera will create a one-page clinician pilot guide by 2026-06-19.\n\nOwner: Meera\nDue date: 2026-06-19",
+      "owner": "Meera",
+      "due_date": "2026-06-19",
+      "priority": "Medium",
+      "labels": [
+        "meeting-action",
+        "meera"
+      ],
+      "source_quote": "Meera will create a one-page clinician pilot guide by 2026-06-19.",
+      "confidence": 0.7
+    },
+    {
+      "title": "confirm whether Jira labels should include clinical-pilot and annotation-workflow",
+      "description": "Action extracted from meeting notes.\n\nSource: Ravi will confirm whether Jira labels should include `clinical-pilot` and `annotation-workflow`.\n\nOwner: Ravi\nDue date: Not specified",
+      "owner": "Ravi",
+      "due_date": null,
+      "priority": "Medium",
+      "labels": [
+        "meeting-action",
+        "ravi"
+      ],
+      "source_quote": "Ravi will confirm whether Jira labels should include `clinical-pilot` and `annotation-workflow`.",
+      "confidence": 0.7
+    },
+    {
+      "title": "schedule the pilot readiness review for next week",
+      "description": "Action extracted from meeting notes.\n\nSource: Asha will schedule the pilot readiness review for next week.\n\nOwner: Asha\nDue date: next week",
+      "owner": "Asha",
+      "due_date": "next week",
+      "priority": "Medium",
+      "labels": [
+        "meeting-action",
+        "asha"
+      ],
+      "source_quote": "Asha will schedule the pilot readiness review for next week.",
+      "confidence": 0.7
+    }
+  ],
+  "extraction_method": "deterministic_fallback"
+}

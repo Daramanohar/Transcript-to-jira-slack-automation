@@ -1,0 +1,37 @@
+[
+  {
+    "action_title": "draft validation copy for incomplete scan uploads",
+    "created": true,
+    "key": "DRY-001",
+    "url": "dry-run://jira/DRY-001",
+    "error": null
+  },
+  {
+    "action_title": "add reviewer rotation rules to the technical plan",
+    "created": true,
+    "key": "DRY-002",
+    "url": "dry-run://jira/DRY-002",
+    "error": null
+  },
+  {
+    "action_title": "create a one-page clinician pilot guide",
+    "created": true,
+    "key": "DRY-003",
+    "url": "dry-run://jira/DRY-003",
+    "error": null
+  },
+  {
+    "action_title": "confirm whether Jira labels should include clinical-pilot and annotation-workflow",
+    "created": true,
+    "key": "DRY-004",
+    "url": "dry-run://jira/DRY-004",
+    "error": null
+  },
+  {
+    "action_title": "schedule the pilot readiness review for next week",
+    "created": true,
+    "key": "DRY-005",
+    "url": "dry-run://jira/DRY-005",
+    "error": null
+  }
+]

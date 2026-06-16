@@ -1,0 +1,49 @@
+{
+  "text": "Meeting automation summary for Sample Product Review",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Sample Product Review - Follow-up Summary"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Summary*\nIdentified 5 action item(s), 3 decision(s), and 2 risk(s) from the meeting notes."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Jira tickets created*\n- <dry-run://jira/DRY-001|DRY-001>: draft validation copy for incomplete scan uploads\n- <dry-run://jira/DRY-002|DRY-002>: add reviewer rotation rules to the technical plan\n- <dry-run://jira/DRY-003|DRY-003>: create a one-page clinician pilot guide\n- <dry-run://jira/DRY-004|DRY-004>: confirm whether Jira labels should include clinical-pilot and annotation-workflow\n- <dry-run://jira/DRY-005|DRY-005>: schedule the pilot readiness review for next week"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Decisions*\n- Use the existing Jira project for workflow follow-up instead of creating a separate tracker.\n- Keep the first release focused on annotation upload, review assignment, and uncertainty escalation.\n- Pilot with 20 retrospective ultrasound studies before expanding to live cases."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Risks / watchouts*\n- If reviewer assignment is unclear, pilot feedback may be noisy.\n- If the clinician guide is late, onboarding will slip."
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "mrkdwn",
+          "text": "Extraction method: `deterministic_fallback`"
+        }
+      ]
+    }
+  ]
+}

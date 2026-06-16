@@ -1,0 +1,472 @@
+[
+  {
+    "fields": {
+      "project": {
+        "key": "DRY"
+      },
+      "summary": "draft validation copy for incomplete scan uploads",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Action extracted from meeting notes.\n\nSource: Asha will draft validation copy for incomplete scan uploads by 2026-06-17.\n\nOwner: Asha\nDue date: 2026-06-17"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": " "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Owner: Asha"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Due date: 2026-06-17"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Priority: Medium"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Confidence: 0.70"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": " "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Source quote: Asha will draft validation copy for incomplete scan uploads by 2026-06-17."
+              }
+            ]
+          }
+        ]
+      },
+      "issuetype": {
+        "name": "Task"
+      },
+      "labels": [
+        "asha",
+        "automated-meeting-action",
+        "meeting-action"
+      ]
+    }
+  },
+  {
+    "fields": {
+      "project": {
+        "key": "DRY"
+      },
+      "summary": "add reviewer rotation rules to the technical plan",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Action extracted from meeting notes.\n\nSource: Ravi will add reviewer rotation rules to the technical plan by 2026-06-18.\n\nOwner: Ravi\nDue date: 2026-06-18"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": " "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Owner: Ravi"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Due date: 2026-06-18"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Priority: Medium"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Confidence: 0.70"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": " "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Source quote: Ravi will add reviewer rotation rules to the technical plan by 2026-06-18."
+              }
+            ]
+          }
+        ]
+      },
+      "issuetype": {
+        "name": "Task"
+      },
+      "labels": [
+        "automated-meeting-action",
+        "meeting-action",
+        "ravi"
+      ]
+    }
+  },
+  {
+    "fields": {
+      "project": {
+        "key": "DRY"
+      },
+      "summary": "create a one-page clinician pilot guide",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Action extracted from meeting notes.\n\nSource: Meera will create a one-page clinician pilot guide by 2026-06-19.\n\nOwner: Meera\nDue date: 2026-06-19"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": " "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Owner: Meera"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Due date: 2026-06-19"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Priority: Medium"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Confidence: 0.70"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": " "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Source quote: Meera will create a one-page clinician pilot guide by 2026-06-19."
+              }
+            ]
+          }
+        ]
+      },
+      "issuetype": {
+        "name": "Task"
+      },
+      "labels": [
+        "automated-meeting-action",
+        "meera",
+        "meeting-action"
+      ]
+    }
+  },
+  {
+    "fields": {
+      "project": {
+        "key": "DRY"
+      },
+      "summary": "confirm whether Jira labels should include clinical-pilot and annotation-workflow",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Action extracted from meeting notes.\n\nSource: Ravi will confirm whether Jira labels should include `clinical-pilot` and `annotation-workflow`.\n\nOwner: Ravi\nDue date: Not specified"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": " "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Owner: Ravi"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Due date: Not specified"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Priority: Medium"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Confidence: 0.70"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": " "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Source quote: Ravi will confirm whether Jira labels should include `clinical-pilot` and `annotation-workflow`."
+              }
+            ]
+          }
+        ]
+      },
+      "issuetype": {
+        "name": "Task"
+      },
+      "labels": [
+        "automated-meeting-action",
+        "meeting-action",
+        "ravi"
+      ]
+    }
+  },
+  {
+    "fields": {
+      "project": {
+        "key": "DRY"
+      },
+      "summary": "schedule the pilot readiness review for next week",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Action extracted from meeting notes.\n\nSource: Asha will schedule the pilot readiness review for next week.\n\nOwner: Asha\nDue date: next week"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": " "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Owner: Asha"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Due date: next week"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Priority: Medium"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Confidence: 0.70"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": " "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Source quote: Asha will schedule the pilot readiness review for next week."
+              }
+            ]
+          }
+        ]
+      },
+      "issuetype": {
+        "name": "Task"
+      },
+      "labels": [
+        "asha",
+        "automated-meeting-action",
+        "meeting-action"
+      ]
+    }
+  }
+]

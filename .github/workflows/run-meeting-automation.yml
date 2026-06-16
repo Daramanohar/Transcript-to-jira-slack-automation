@@ -1,0 +1,60 @@
+name: Run Meeting Automation
+
+on:
+  workflow_dispatch:
+    inputs:
+      transcript_path:
+        description: "Path to transcript or notes file in the repository"
+        required: true
+        default: "data/sample_meeting_notes.md"
+      meeting_title:
+        description: "Meeting title for Jira and Slack output"
+        required: true
+        default: "Role Challenge Meeting"
+      mode:
+        description: "Run mode"
+        required: true
+        type: choice
+        options:
+          - dry-run
+          - live
+        default: dry-run
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install automation
+        run: python -m pip install -e .
+
+      - name: Run automation
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5.5' }}
+          JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
+          JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
+          JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
+          JIRA_PROJECT_KEY: ${{ secrets.JIRA_PROJECT_KEY }}
+          JIRA_ISSUE_TYPE: ${{ vars.JIRA_ISSUE_TYPE || 'Task' }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          meeting-automation run \
+            --input "${{ inputs.transcript_path }}" \
+            --meeting-title "${{ inputs.meeting_title }}" \
+            --mode "${{ inputs.mode }}" \
+            --out artifacts/latest
+
+      - name: Upload proof artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: meeting-automation-artifacts
+          path: artifacts/latest

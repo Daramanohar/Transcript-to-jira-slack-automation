@@ -1,0 +1,4 @@
+faster-whisper
+reportlab
+google-genai
+tenacity
