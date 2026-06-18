@@ -120,6 +120,35 @@ Configure these Azure App Settings (do not commit secrets):
 
 For local Azure Functions testing, copy `local.settings.json.example` to `local.settings.json` and fill real values. `.env` is still loaded locally, but real environment variables/Azure App Settings take precedence.
 
+## Test the live deployment (Azure)
+
+The pipeline is deployed as an HTTP-triggered Azure Function. You can run the
+entire flow in the cloud with a single request, with no local setup required.
+
+**Endpoint:** `https://wfae-meeting-automation.azurewebsites.net/api/run`
+
+The request body accepts:
+- `dry_run` (bool): preview only, creates no tickets and posts nothing.
+- `use_saved_items` (bool): run from the frozen extraction for a reproducible result.
+
+**Safe preview (PowerShell):**
+```powershell
+$body = '{"dry_run": true}'
+Invoke-RestMethod -Uri "https://wfae-meeting-automation.azurewebsites.net/api/run?code=YOUR_FUNCTION_KEY" -Method Post -Body $body -ContentType "application/json"
+```
+
+**curl:**
+```bash
+curl -X POST "https://wfae-meeting-automation.azurewebsites.net/api/run?code=YOUR_FUNCTION_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"dry_run": true}'
+```
+
+A successful response returns a JSON summary: items extracted, tickets
+created/skipped/failed, and whether the Slack summary was posted.
+
+Reviewers should replace `YOUR_FUNCTION_KEY` with the key provided in the submission PDF.
+
 ## Deployment Options
 
 Recommended for this challenge: GitHub Actions.
