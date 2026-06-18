@@ -1,0 +1,5 @@
+confidence_threshold: 0.5
+meeting_date: "2026-06-16"
+meeting_id: "transcript.txt"
+jira_project_key: ""
+default_priority: "Medium"

@@ -1,0 +1,12 @@
+{
+  "Asri": {
+    "jira_account_id": "REPLACE_WITH_ACCOUNT_ID",
+    "email": "person1@example.com",
+    "display_name": "Person One"
+  },
+  "Manohar": {
+    "jira_account_id": "REPLACE_WITH_ACCOUNT_ID",
+    "email": "person2@example.com",
+    "display_name": "Person Two"
+  }
+}

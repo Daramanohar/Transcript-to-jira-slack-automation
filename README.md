@@ -71,6 +71,15 @@ The command writes evidence to `artifacts/latest/`:
 - `slack_payload.json`
 - `run_report.md`
 
+## Run the full pipeline
+
+```powershell
+python -m src.pipeline --transcript data/transcript.txt
+python -m src.pipeline --dry-run
+```
+
+`--dry-run` is a safe preview: it builds Jira payloads and Slack blocks without posting.
+
 ## Live Setup
 
 1. Copy `.env.example` to `.env`.
@@ -92,6 +101,24 @@ Use `docs/submission_writeup_template.md` as the base for the final PDF. The fin
 - screenshots of Jira tickets
 - screenshot of the Slack summary message
 - generated artifact files or a screen recording
+
+## Deploy to Azure
+
+This repo includes an Azure Functions Python v2 HTTP trigger at `POST /api/run` with function-key auth.
+
+Configure these Azure App Settings (do not commit secrets):
+
+- `GEMINI_API_KEY`
+- `GEMINI_MODEL`
+- `LLM_PROVIDER`
+- `JIRA_BASE_URL`
+- `JIRA_EMAIL`
+- `JIRA_API_TOKEN`
+- `JIRA_PROJECT_KEY`
+- `SLACK_BOT_TOKEN`
+- `SLACK_CHANNEL`
+
+For local Azure Functions testing, copy `local.settings.json.example` to `local.settings.json` and fill real values. `.env` is still loaded locally, but real environment variables/Azure App Settings take precedence.
 
 ## Deployment Options
 

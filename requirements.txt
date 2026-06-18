@@ -2,3 +2,7 @@ faster-whisper
 reportlab
 google-genai
 tenacity
+requests
+python-dotenv
+PyYAML
+azure-functions
