@@ -144,6 +144,34 @@ curl -X POST "https://wfae-meeting-automation.azurewebsites.net/api/run?code=YOU
   -d '{"dry_run": true}'
 ```
 
+### What the live endpoint does and how to verify
+
+The deployed function runs against the project's own Jira and Slack workspaces
+(credentials are stored as Azure Application Settings, never in this repo).
+Reviewers do not need their own Jira or Slack access to test it.
+
+- With `{"dry_run": true}` the pipeline runs end to end but creates nothing and
+  posts nothing. The JSON response shows what it *would* do.
+- With `{"dry_run": false}` it creates the Jira tickets and posts the Slack
+  summary for real, in this project's workspaces.
+
+Either way, the JSON response is the proof of what happened. A successful run
+returns a summary such as:
+
+```json
+{
+  "items_extracted": 10,
+  "tickets_created": 7,
+  "tickets_skipped": 3,
+  "tickets_failed": 0,
+  "slack_posted": true,
+  "dry_run": false
+}
+```
+
+Screenshots of the resulting Jira board and Slack message are included in the
+submission PDF as additional evidence.
+
 A successful response returns a JSON summary: items extracted, tickets
 created/skipped/failed, and whether the Slack summary was posted.
 
